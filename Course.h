@@ -11,7 +11,6 @@ string courseCode;
 int currentStudents;
 int maxStudents;
 Student* students[];
-int currentStudent;
 public:
 Course(string courseName, string courseCode, int maxStudents , Student* students[] , int currentStudents);
 Course();
