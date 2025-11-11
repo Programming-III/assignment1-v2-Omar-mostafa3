@@ -96,7 +96,6 @@ Course::~Course() {
 
 
 
-int main() {
    
 int main() {
     Student s1("Omar Nabil", 2202, 2, "Informatics");
@@ -111,4 +110,4 @@ int main() {
 }
     
     
-}
+
