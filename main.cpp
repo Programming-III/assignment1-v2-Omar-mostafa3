@@ -4,19 +4,6 @@
 #include "Student.h"
 #include "Instructor.h"
 #include "Course.h"
-
-
-using namespace std;
-#include <iostream>
-#include <string>
-#include "Person.h"
-#include "Student.h"
-#include "Instructor.h"
-#include "Course.h"
-using namespace std;
-
-#include "Person.hpp"
-#include <iostream>
 using namespace std;
 
 Person::Person(string name, int id) {
