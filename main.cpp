@@ -100,8 +100,8 @@ int main() {
    
 int main() {
     Student s1("Omar Nabil", 2202, 2, "Informatics");
-    Instructor i1("Dr. Lina Khaled", 201, "Computer Science ", 5);
-    Course c1("CS101 - Introduction to Programming ",CS101 ,&s1 , 3);
+    Instructor i1(201 , "Dr. Lina Khaled", "Computer Science ", 5);
+    Course c1("CS101 - Introduction to Programming ",3,CS101 ,&s1 , 3);
    s1.display();
    c1.addStudent(&s1);
     c1.displayCourseInfo();
