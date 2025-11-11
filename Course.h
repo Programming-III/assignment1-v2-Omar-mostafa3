@@ -4,8 +4,21 @@
 #include <string>
 #include "Student.h"
 using namespace std;
-//#write your code here
-
+class Course {
+private:
+string courseName;
+string courseCode;
+int currentStudents;
+int maxStudents;
+Student* students[];
+int courseCredit;
+public:
+Course(string courseName, string courseCode, int maxStudents , Student* students[] , int currentStudents);
+Course();
+void addStudent(Student* student);
+void displayCourseInfo();
+~Course();
+};
 
 
 
